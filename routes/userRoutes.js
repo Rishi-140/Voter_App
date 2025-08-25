@@ -23,7 +23,7 @@ router.post('/signup', async (req, res) => {
     }
     catch(err){
         console.log(err);
-        res.status(500).json({ error: 'Internal Server Issue' })
+        res.status(500).json({ error: 'Internal Server Issuee' })
 
     }
 
